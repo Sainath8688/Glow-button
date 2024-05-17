@@ -1,0 +1,25 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+    background-color: black;
+}
+div button {
+    font-size:30px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color:rgb(53,255,245);
+    background-color: black;
+    padding: 10px;
+    border:2px solid rgb(53,231,255);
+    border-radius: 40px;
+    cursor: pointer;
+}
+button:hover{
+    color:rgb(3,231,255);
+    background-color: black;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgb(53,231,255) , 0 0 30px rgb(53,231,255), 0 0 60px rgb(53,231,255) , 0 0 100px rgb(53,231,255)
+    
+}
